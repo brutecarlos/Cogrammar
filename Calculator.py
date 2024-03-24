@@ -5,8 +5,9 @@ def subtract(x, y):
     return x - y
 
 def multiply(x, y):
-    # Incorrect implementation
-    return x + y
+    # Correct implementation
+    return x * y
+
 
 def divide(x, y):
     # Incorrect implementation
