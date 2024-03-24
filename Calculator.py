@@ -9,9 +9,11 @@ def multiply(x, y):
     return x + y
 
 def divide(x, y):
-    # Incorrect implementation
-    return x * y
-
+    # Correct implementation
+    if y != 0:
+        return x / y
+    else:
+        return "Cannot divide by zero"
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
